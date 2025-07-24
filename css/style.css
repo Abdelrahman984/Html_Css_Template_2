@@ -683,6 +683,46 @@ header nav .form i:hover {
   background-color: var(--main-color);
   transition: 0.3s;
 }
+.our-skills .skills .prog-holder {
+  margin-bottom: 40px;
+}
+.our-skills .skills .prog-holder h4 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.our-skills .skills .prog-holder .prog {
+  height: 30px;
+  background-color: #dedadc;
+}
+.our-skills .skills .prog-holder .prog span {
+  position: relative;
+  height: 100%;
+  background-color: var(--main-color);
+  display: block;
+}
+.our-skills .skills .prog-holder .prog span::before {
+  content: attr(data-progress);
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: -40px;
+  right: -20px;
+  padding: 4px 0;
+  width: 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+.our-skills .skills .prog-holder .prog span::after {
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: -15px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-color: black;
+}
 /* End Skills */
 
 /* Start Contact */
