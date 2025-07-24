@@ -725,6 +725,36 @@ header nav .form i:hover {
 }
 /* End Skills */
 
+/* Start Quote */
+.quote {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-image: url("../images/quote.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.quote::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 75%);
+}
+.quote .container {
+  position: relative;
+}
+.quote q {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+/* End Quote */
+
 /* Start Contact */
 
 /*Start Footer */
