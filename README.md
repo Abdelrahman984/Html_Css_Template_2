@@ -12,13 +12,16 @@ A responsive HTML & CSS landing page template inspired by Elzero Web School.
 - Clean and modern design
 - Pure HTML & CSS (no frameworks or JS)
 - Sections include:
-  - Features
+  - Home
   - Services
   - Portfolio
+  - About
+  - Pricing
   - Contact
+
 
 ## 🚀 How to Use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Abdelrahman984/Html_Css_Template_1.git
+   git clone https://github.com/Abdelrahman984/Html_Css_Template_2.git
